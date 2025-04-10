@@ -16,7 +16,7 @@
         <div class="card-body">
             <div class="row">
             <div class="col-3 d-flex justify-content-center align-items-center flex-colum">
-                 <img src="{{asset('storage/siswa/'.$siswa->pas_poto)}}" class="img-fluid"  width=200px>
+                 <img src="{{asset('storage/siswa/'.$siswa->pas_poto)}}" class="img-fluid"  width=500px>
             </div>   
                 <div class="col-6">
                 <ul class="list-group">

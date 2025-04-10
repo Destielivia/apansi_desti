@@ -50,7 +50,7 @@
                         <tr>
                             <th>{{ ($siswas->currentPage() -1) * $siswas->perPage() + $loop->iteration }}</td>
                             <td class="col-pas_poto">
-                                <img src="{{ asset('storage/siswa/'.$siswa->pas_poto)}}" class="img-fluid" width="100px">
+                                <img src="{{ asset('storage/siswa/'.$siswa->pas_poto)}}" class="img-fluid" width="300px">
                             </td>
                             <td>{{  $siswa->nama}}</td>
                             <td>{{  $siswa->agama}}</td>

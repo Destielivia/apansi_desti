@@ -86,7 +86,7 @@
             </div>
 
             <div class="modal-footer">
-                <form action="{{ route('dashboard.user.delete', $user->id) }}" method="post">
+                <form action="{{ url('dashboard.user.delete', $user->id) }}" method="post">
                     @csrf
                     @method('delete')
                     <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
